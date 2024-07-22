@@ -3,6 +3,11 @@
 ## Introduction
 MetRisk is a powerful offline application designed to enhance the post-processing capabilities of the OpenQuake platform. OpenQuake is a state-of-the-art open-source platform for modeling and analyzing earthquake hazards and risks. However, the available post-processing tools are limited. MetRisk addresses this gap by providing a graphical interface for risk scenario analysis, enabling users to produce risk maps, compute hazard exceedance curves, and assess simulation convergence.
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Requirements](#requirements)
+
 ## Features
 - **Risk Maps**: Generate visual representations of risk scenarios.
 - **Hazard Exceedance Curves**: Compute and visualize hazard exceedance probabilities.
