@@ -8,6 +8,8 @@ MetRisk is a powerful offline application designed to enhance the post-processin
 2. [Requirements](#requirements)
 3. [Installation](#Installation)
 4. [Software Description](#software-description)
+5. [Usage](#usage)
+6. [Licence](#licence)
 
 ## Features
 - **Risk Maps**: Generate visual representations of risk scenarios.
@@ -119,17 +121,12 @@ Stores reusable functions for generating graphs, inserting buttons, exporting re
 
 ## Usage
 1. **Start the application:**
-   \```bash
+   ```bash
    python InterfaceLayout.py
-   \```
+   ```
 2. **Navigate through the interface using the tabs to analyze risk scenarios.**
-
-## Contributing
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Acknowledgments
-We acknowledge the developers of OpenQuake for their foundational platform and the community for their continuous support and contributions.
 
