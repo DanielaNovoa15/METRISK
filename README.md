@@ -71,11 +71,11 @@ import json
 ## Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/MetRisk.git
+   git clone https://github.com/DanielaNovoa15/METRISK.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd MetRisk
+   cd METRISK
    ```
 3. **Install the required libraries:**
    ```bash
