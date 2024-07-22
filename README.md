@@ -9,7 +9,7 @@ MetRisk is a powerful offline application designed to enhance the post-processin
 3. [Installation](#Installation)
 4. [Software Description](#software-description)
 5. [Usage](#usage)
-6. [Licence](#licence)
+6. [License](#license)
 
 ## Features
 - **Risk Maps**: Generate visual representations of risk scenarios.
