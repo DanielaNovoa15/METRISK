@@ -1,6 +1,5 @@
 # MetRisk: A Post-Processing Application for OpenQuake Risk Analysis
 
-## Introduction
 MetRisk is a powerful offline application designed to enhance the post-processing capabilities of the OpenQuake platform. OpenQuake is a state-of-the-art open-source platform for modeling and analyzing earthquake hazards and risks. However, the available post-processing tools are limited. MetRisk addresses this gap by providing a graphical interface for risk scenario analysis, enabling users to produce risk maps, compute hazard exceedance curves, and assess simulation convergence.
 
 ## Table of Contents
@@ -19,7 +18,8 @@ To run MetRisk offline, you need a Python environment capable of executing Pytho
 
 ### Required Python Libraries
 Before running MetRisk, ensure the following libraries are installed:
-\```python
+
+```python
 # Tkinter Library
 import tkinter as tk
 from tkinter import ttk, filedialog, Toplevel, messagebox
@@ -66,7 +66,7 @@ import PyPDF2
 # HDF5 Libraries
 import h5py
 import json
-\```
+```
 
 ## Installation
 1. **Clone the repository:**
