@@ -127,6 +127,6 @@ Stores reusable functions for generating graphs, inserting buttons, exporting re
 2. **Navigate through the interface using the tabs to analyze risk scenarios.**
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the GNU General Public License. See the [LICENSE](LICENSE) file for more details.
 
 
