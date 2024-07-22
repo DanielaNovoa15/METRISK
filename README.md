@@ -95,7 +95,7 @@ import json
 ### Software Architecture
 The application operates offline, featuring an interactive interface developed with Tkinter. This interface facilitates the visualization and manipulation of data associated with stochastic events and their analysis.
 
-#### Application Core: InterfaceLayout
+#### Application Core: InterfaceLayout.py
 - **Library Importation**: Lists all necessary libraries for optimal operation, including Tkinter for the graphical interface and other specialized libraries for data processing and analysis.
 - **Window Colors**: Defines a color palette used throughout the application, allowing customization.
 - **Tab Management**: Handles the logic for showing or hiding tab content based on user selection. Each tab includes variables for title, text, buttons, images, canvas, and rectangles. Essential functions for interaction between tabs include:
@@ -119,6 +119,27 @@ The application operates offline, featuring an interactive interface developed w
 #### Common Functions Library: FunctionsLibrary.py
 Stores reusable functions for generating graphs, inserting buttons, exporting results, etc., facilitating maintenance and expansion of the application.
 
+### Additional Folders
+The application includes two additional folders:
+- **icon**: Contains all .png images used in the platform to enhance the user interface, including logos of the application and the universities involved in the project.
+- **css**: Stores the user manual for the platform (downloadable from the offline application), templates for deterministic and probabilistic results, and an important file called `abadi-mt.ttf` which users need to install on their computers to ensure the correct font (Abadi) is used by the application.
+
+#### Installing the Abadi Font
+
+##### Unix-based Systems (Linux, macOS)
+You can install the Abadi font from the command line. Navigate to the `css` folder and run:
+```bash
+sudo cp css/abadi-mt.ttf /Library/Fonts/  # macOS
+sudo cp css/abadi-mt.ttf /usr/share/fonts/  # Linux
+fc-cache -f -v
+```
+
+##### Windows
+For Windows users, the font must be installed manually:
+1. Navigate to the `css` folder.
+2. Double-click on `abadi-mt.ttf`.
+3. Click "Install" to install the font.
+
 ## Usage
 1. **Start the application:**
    ```bash
@@ -129,4 +150,10 @@ Stores reusable functions for generating graphs, inserting buttons, exporting re
 ## License
 This project is licensed under the GNU General Public License. See the [LICENSE](LICENSE) file for more details.
 
+## Acknowledgments
+We acknowledge the developers of OpenQuake for their foundational platform and the community for their continuous support and contributions.
+
+Special thanks to the Universidad de La Sabana for funding and overseeing the project. Although the moral rights of the product belong to me (Daniela Novoa Ramirez), the project was developed under the supervision and investment of Universidad de La Sabana.
+
+Additionally, we recognize the contributions of Universidad de Medellín and Universidad Militar Nueva Granada for their involvement in generating risk models and developing the codes used by the platform.
 
