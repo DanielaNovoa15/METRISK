@@ -70,21 +70,21 @@ import json
 
 ## Installation
 1. **Clone the repository:**
-   \```bash
+   ```bash
    git clone https://github.com/yourusername/MetRisk.git
-   \```
+   ```
 2. **Navigate to the project directory:**
-   \```bash
+   ```bash
    cd MetRisk
-   \```
+   ```
 3. **Install the required libraries:**
-   \```bash
+   ```bash
    pip install -r requirements.txt
-   \```
+   ```
 4. **Run the application:**
-   \```bash
+   ```bash
    python InterfaceLayout.py
-   \```
+   ```
 
 ## Software Description
 
