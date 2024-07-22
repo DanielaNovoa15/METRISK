@@ -6,6 +6,8 @@ MetRisk is a powerful offline application designed to enhance the post-processin
 
 1. [Features](#features)
 2. [Requirements](#requirements)
+3. [Installation](#Installation)
+4. [Software Description](#software-description)
 
 ## Features
 - **Risk Maps**: Generate visual representations of risk scenarios.
@@ -88,10 +90,10 @@ import json
 
 ## Software Description
 
-### 2.1. Software Architecture
+### Software Architecture
 The application operates offline, featuring an interactive interface developed with Tkinter. This interface facilitates the visualization and manipulation of data associated with stochastic events and their analysis.
 
-#### 2.1.1. Application Core: InterfaceLayout
+#### Application Core: InterfaceLayout
 - **Library Importation**: Lists all necessary libraries for optimal operation, including Tkinter for the graphical interface and other specialized libraries for data processing and analysis.
 - **Window Colors**: Defines a color palette used throughout the application, allowing customization.
 - **Tab Management**: Handles the logic for showing or hiding tab content based on user selection. Each tab includes variables for title, text, buttons, images, canvas, and rectangles. Essential functions for interaction between tabs include:
@@ -103,7 +105,7 @@ The application operates offline, featuring an interactive interface developed w
 - **Navigation Functions**: Essential functions for navigation, displaying messages, selecting folders, etc.
 - **Main Window**: Configures the main interface, specifying size, element arrangement, and behavior.
 
-#### 2.1.2. Content-Specific Modules
+#### Content-Specific Modules
 - **Home**: `Home.py` generates the initial content visible to the user.
 - **Stochastic Events**: `CalibrationStochasticEvents.py` and `DispersionStochasticEvents.py` process and display the calibration and dispersion of stochastic events. `StochasticEvents.py` configures the page within the interface.
 - **Losses and Damages**: `LossesANDDamage.py` and submodules like `Damage.py` and `Losses.py` handle the visualization and analysis of losses and damages.
@@ -112,7 +114,7 @@ The application operates offline, featuring an interactive interface developed w
 - **Data Sheets**: `DataSheets.py` generates technical sheets of desired results.
 - **Reports**: `Reports.py` allows users to download pre-generated technical sheets.
 
-#### 2.1.3. Common Functions Library: FunctionsLibrary.py
+#### Common Functions Library: FunctionsLibrary.py
 Stores reusable functions for generating graphs, inserting buttons, exporting results, etc., facilitating maintenance and expansion of the application.
 
 ## Usage
