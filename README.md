@@ -77,21 +77,37 @@ import json
 ```
 
 ## Installation
-1. **Install Git Bash:**
+1. **Installing the Abadi Font:**
+   
+   ##### Unix-based Systems (Linux, macOS)
+   You can install the Abadi font from the command line. Navigate to the `css` folder and run:
+   ```bash
+   sudo cp css/abadi-mt.ttf /Library/Fonts/  # macOS
+   sudo cp css/abadi-mt.ttf /usr/share/fonts/  # Linux
+   fc-cache -f -v
+   ```
+
+   ##### Windows
+   For Windows users, the font must be installed manually:
+   1. Navigate to the `css` folder.
+   2. Double-click on `abadi-mt.ttf`.
+   3. Click "Install" to install the font.
+
+2. **Install Git Bash:**
 
    Go to the official Git website (`https://git-scm.com/downloads`) and download the installer.
 
    Run the installer and follow the on-screen instructions.
 
    During installation, select the default options unless you have specific needs.
-2. **Install Python:**
+3. **Install Python:**
 
    Go to the official Python website and download the installer (`https://www.python.org/downloads/`).
 
    Run the installer and be sure to check the **“Add Python to PATH”** option before installing.
 
    Follow the on-screen instructions to complete the installation.
-3. **Verify the installation:**
+4. **Verify the installation:**
 
    To make sure that both Git Bash and Python are properly installed, open Git Bash and run the following commands:
    ```bash
@@ -99,32 +115,32 @@ import json
    python --version
    pip --version
    ```
-4. **Clone the repository:**
+5. **Clone the repository:**
 
    Open Git Bash and run:
    ```bash
    git clone https://github.com/DanielaNovoa15/METRISK.git
    ```
-5. **Navigate to the project directory:**
+6. **Navigate to the project directory:**
 
    Open Git Bash and run:
    ```bash
    cd METRISK
    ```
-6. **Create and activate a virtual environment:**
+7. **Create and activate a virtual environment:**
 
    Open Git Bash and run:
    ```bash
    python -m venv venv
    source venv/Scripts/activate
    ```
-7. **Install the required libraries:**
+8. **Install the required libraries:**
 
    With the virtual environment activated, install the project dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-8. **Run the application:**
+9. **Run the application:**
 
    Finally, run the application:
    ```bash
@@ -164,22 +180,6 @@ Stores reusable functions for generating graphs, inserting buttons, exporting re
 The application includes two additional folders:
 - **icon**: Contains all .png images used in the platform to enhance the user interface, including logos of the application and the universities involved in the project.
 - **css**: Stores the user manual for the platform (downloadable from the offline application), templates for deterministic and probabilistic results, and an important file called `abadi-mt.ttf` which users need to install on their computers to ensure the correct font (Abadi) is used by the application.
-
-#### Installing the Abadi Font
-
-##### Unix-based Systems (Linux, macOS)
-You can install the Abadi font from the command line. Navigate to the `css` folder and run:
-```bash
-sudo cp css/abadi-mt.ttf /Library/Fonts/  # macOS
-sudo cp css/abadi-mt.ttf /usr/share/fonts/  # Linux
-fc-cache -f -v
-```
-
-##### Windows
-For Windows users, the font must be installed manually:
-1. Navigate to the `css` folder.
-2. Double-click on `abadi-mt.ttf`.
-3. Click "Install" to install the font.
 
 ## Usage
 1. **Start the application:**
