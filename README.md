@@ -79,7 +79,7 @@ import json
 ## Installation
 1. **Install Git Bash:**
 
-   Go to the official Git website (`https://git-scm.com/downloads`) and download the installer.
+   Go to the official Git website [GitScm](#https://git-scm.com/download)  (`https://git-scm.com/downloads`) and download the installer.
 
    Run the installer and follow the on-screen instructions.
 
