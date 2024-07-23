@@ -105,15 +105,28 @@ import json
    ```bash
    git clone https://github.com/DanielaNovoa15/METRISK.git
    ```
-2. **Navigate to the project directory:**
+5. **Navigate to the project directory:**
+
+   Open Git Bash and run:
    ```bash
    cd METRISK
    ```
-3. **Install the required libraries:**
+6. **Create and activate a virtual environment:**
+
+   Open Git Bash and run:
+   ```bash
+   python -m venv venv
+   source venv/Scripts/activate
+   ```
+7. **Install the required libraries:**
+
+   With the virtual environment activated, install the project dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. **Run the application:**
+8. **Run the application:**
+
+   Finally, run the application:
    ```bash
    python InterfaceLayout.py
    ```
