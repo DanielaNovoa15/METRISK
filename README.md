@@ -24,56 +24,16 @@ To run MetRisk offline, you need a Python environment capable of executing Pytho
 Before running MetRisk, ensure the following libraries are installed:
 
 ```python
-# Tkinter Library
-import tkinter as tk
-from tkinter import ttk, filedialog, Toplevel, messagebox
-
-# Graphics TKinter Library
-from PIL import Image, ImageTk
-import matplotlib.ticker as ticker
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-
-# Directory Library
-import os
-import glob
-import zipfile
-import io
-
-# Data Processing Libraries
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import math
-
-# Summary Tables Libraries
-from openpyxl import Workbook
-from openpyxl.styles import Alignment, Border, Side
-
-# Geographic Data Libraries
-import geopandas as gpd
-import contextily as ctx
-from matplotlib.colors import Normalize
-from matplotlib.ticker import FuncFormatter
-from matplotlib.colors import ListedColormap
-from matplotlib import cm
-import matplotlib.offsetbox as offsetbox
-from matplotlib.patches import Rectangle
-import re
-
-# File Dialog and Message Box
-from tkinter import filedialog, messagebox as tk_messagebox
-
-# PDF Generation Libraries
-from reportlab.pdfgen import canvas
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.pdfgen.canvas import Canvas
-import PyPDF2
-
-# HDF5 Libraries
-import h5py
-import json
+pip install Pillow
+pip install matplotlib
+pip install pandas
+pip install numpy
+pip install openpyxl
+pip install geopandas
+pip install contextily
+pip install reportlab
+pip install PyPDF2
+pip install h5py
 ```
 
 ## Installation
