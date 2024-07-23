@@ -46,7 +46,7 @@ import PyPDF2
 import h5py
 import json
 # ........ Function library ...................................................
-import FuntionsLibrary as wnfun_lib
+import FunctionsLibrary as wnfun_lib
 # ........ Own libraries ......................................................
 import Home as home_lib
 import StochasticEvents as event_lib
