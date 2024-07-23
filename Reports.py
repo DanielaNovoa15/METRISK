@@ -14,7 +14,7 @@ from PIL import Image, ImageTk
 # ........ Directory Library ..................................................
 import os
 # -------- Own libraries ------------------------------------------------------
-import FuntionsLibrary as wnfun_lib
+import FunctionsLibrary as wnfun_lib
 # -------- HDF5 libraries -----------------------------------------------------
 import h5py
 import json
