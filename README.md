@@ -77,6 +77,8 @@ import json
 ```
 
 ## Installation
+1. **Install Git Bash:**
+   Go to the official Git website (`https://git-scm.com/downloads`) and download the installer. Run the installer and follow the on-screen instructions. During installation, select the default options unless you have specific needs.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/DanielaNovoa15/METRISK.git
