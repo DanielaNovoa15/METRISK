@@ -14,7 +14,7 @@ from PIL import Image, ImageTk
 # ........ Directory Library ..................................................
 import os
 # -------- Own libraries ------------------------------------------------------
-import FuntionsLibrary as wnfun_lib
+import FunctionsLibrary as wnfun_lib
 
 #%% ====== SHOW EVENTS ELEMENTS =================================================
 def Show_Events_Elements(EVNT_title,EVNT_text,EVNT_label,EVNT_boton,cnt_container,cnt_color,upcnt_color,Show_Calibrate,Show_Dispersion):   
