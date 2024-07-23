@@ -88,7 +88,7 @@ import json
 
    Go to the official Python website and download the installer (`https://www.python.org/downloads/`).
 
-   Run the installer and be sure to check the “Add Python to PATH” option before installing.
+   Run the installer and be sure to check the **“Add Python to PATH”** option before installing.
 
    Follow the on-screen instructions to complete the installation.
 5. **Clone the repository:**
