@@ -86,7 +86,11 @@ import json
    During installation, select the default options unless you have specific needs.
 3. **Install Python:**
 
-   Go to the official Python website and download the Windows installer. Run the installer and be sure to check the “Add Python to PATH” option before installing. Follow the on-screen instructions to complete the installation.
+   Go to the official Python website and download the installer (`[https://git-scm.com/downloads](https://www.python.org/downloads/)`).
+
+   Run the installer and be sure to check the “Add Python to PATH” option before installing.
+
+   Follow the on-screen instructions to complete the installation.
 5. **Clone the repository:**
    ```bash
    git clone https://github.com/DanielaNovoa15/METRISK.git
