@@ -18,7 +18,7 @@ MetRisk is a powerful offline application designed to enhance the post-processin
 - **Interactive Interface**: User-friendly interface built with Tkinter for easy navigation and data visualization.
 
 ## Requirements
-To run MetRisk offline, you need a Python environment capable of executing Python scripts and visualizing the Tkinter-based interface. We recommend using Spyder, which can be easily downloaded from the official website.
+To run MetRisk offline, you need a Python environment capable of executing Python scripts and visualizing the Tkinter-based interface. We recommend using Git Bash, which can be easily downloaded from the official website.
 
 ### Required Python Libraries
 Before running MetRisk, ensure the following libraries are installed:
