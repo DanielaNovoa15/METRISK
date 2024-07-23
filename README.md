@@ -79,14 +79,14 @@ import json
 ## Installation
 1. **Install Git Bash:**
 
-   Go to the official Git website [GitScm](#https://git-scm.com/download)  (`https://git-scm.com/downloads`) and download the installer.
+   Go to the official Git website (`https://git-scm.com/downloads`) and download the installer.
 
    Run the installer and follow the on-screen instructions.
 
    During installation, select the default options unless you have specific needs.
 3. **Install Python:**
 
-   Go to the official Python website and download the installer (`[https://git-scm.com/downloads](https://www.python.org/downloads/)`).
+   Go to the official Python website and download the installer (`https://www.python.org/downloads/`).
 
    Run the installer and be sure to check the “Add Python to PATH” option before installing.
 
