@@ -14,7 +14,7 @@ from PIL import Image, ImageTk
 # ........ Directory Library ..................................................
 import os
 # -------- Own libraries ------------------------------------------------------
-import FuntionsLibrary as wnfun_lib
+import FunctionsLibrary as wnfun_lib
 
 #%% ====== SHOW HOME ELEMENTS =================================================
 def Show_Home_Elements(HME_label,HME_text,HME_rectg,cnt_container,cnt_color,User_Guide):   
