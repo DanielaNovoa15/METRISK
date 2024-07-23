@@ -84,14 +84,24 @@ import json
    Run the installer and follow the on-screen instructions.
 
    During installation, select the default options unless you have specific needs.
-3. **Install Python:**
+2. **Install Python:**
 
    Go to the official Python website and download the installer (`https://www.python.org/downloads/`).
 
    Run the installer and be sure to check the **“Add Python to PATH”** option before installing.
 
    Follow the on-screen instructions to complete the installation.
-5. **Clone the repository:**
+3. **Verify the installation:**
+
+   To make sure that both Git Bash and Python are properly installed, open Git Bash and run the following commands:
+   ```bash
+   git --version
+   python --version
+   pip --version
+   ```
+4. **Clone the repository:**
+
+   Open Git Bash and run:
    ```bash
    git clone https://github.com/DanielaNovoa15/METRISK.git
    ```
